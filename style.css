@@ -1,0 +1,199 @@
+body {
+    background-color: #F0EEEE;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    
+}
+form{
+    font-family: 'Josefin Sans', sans-serif;
+    width: 600px;
+    margin: auto;
+   
+}
+label{
+    display: block;
+    width: 160px;
+    float: left;
+    background-color: #F0EEEE;
+    padding: 5px;
+    border: 3px solid #6E0707;
+    margin: 2px;
+    
+}
+a:visited,a:link { 
+    color:black;   
+}
+a:hover {
+    color: #6E0707;
+}
+table, th, tr, td{
+    border-style: solid;
+    margin-top: 20px;
+    }
+th, td {
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    color: #E7E7E7;
+    background-color: black;
+    border-color: #6E0707;
+    border-width: 5px;
+}
+ul{
+    list-style-type: none;
+}
+#container{
+    margin-bottom:55px;
+    
+}
+#header{
+    
+}
+    #logo{
+        text-align: center;
+       /* padding-top: 10px;
+        margin-bottom: 00px;
+        margin-top: 0px;
+        font-size: 80px;
+        color: #E7E7E7;*/ 
+    }
+    #menu{
+        /*background: linear-gradient(to right,  #6E0707 0%,#F0EEEE 40%,#F0EEEE 60%,#6E0707 100%);*/
+        background-color: #F0EEEE;
+        width: 650px;
+        margin: auto;
+        margin-top: 0px;
+        margin-bottom: 50px;
+        padding-top: 5px;
+        height:30px;
+        font-size: 25px;
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    #menuBG{
+        background-color: #6E0707;
+            }
+#content{
+    max-width:1000px; 
+    margin: auto;   
+      
+    }
+#about-box{
+    float: left;     
+}
+#about{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    float: left;
+    max-width: 300px;
+}
+.FP-bild{
+    margin: 75px 20px 0px 20px;
+    border: 1px solid;  
+    float: left;    
+}
+    .FP-bild img{
+        display: block;
+    }
+
+.product{
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 199px;
+    margin: 0px 3px 3px 0px;
+    padding: 5px 5px 5px 5px;
+    border: 3px solid #6E0707;
+    }
+    .product img{
+        display: block;
+    }
+    .product .overlay {
+        position: absolute;
+        text-align: center;
+        bottom: 100%;
+        left: 0;
+        right: 0;
+        background-color: rgba(255, 255, 255, 0.5);
+        overflow: hidden;
+        width: 100%;
+        height:0;
+        transition: .5s ease;
+    }
+    .product:hover .overlay {
+        bottom: 0;
+        height: 100%;
+    }
+    .prod-text {
+        font-family: 'Josefin Sans', sans-serif;
+        white-space: nowrap; 
+        color: black;
+        font-size: 50px;
+        position: absolute;
+        overflow: hidden;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+      }
+
+
+
+
+#footer{
+    text-align: center;
+    position: fixed;
+    bottom:0px;
+    right:0px;
+    height:42px;
+    width:100%;
+    background-color: black;
+    border-top: solid; 
+    border-color: #6E0707;
+    border-width: 5px;
+    
+}
+
+
+#social{
+    position: fixed;
+    bottom:0px;
+    right: 10px;
+}
+@media (max-width: 800px) {
+     #logo img{
+        width: 100%;
+        }
+    #menu{
+            width:80%;
+            font-size: 17px;
+            margin-bottom: 25px;
+    }
+            
+    #menuBG{
+        height: 25px;
+        margin-bottom: 25px;}
+
+    #content{
+        width: 100%; 
+        margin: 10px 0px 0px 10px;
+    }
+    .FP-bild{
+        margin:0px 0px 0px 0px;
+    }
+    #about{
+        text-align: left;
+        max-width: 90%;
+    } 
+    .product{
+        margin: 0px 0px 3px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+    
+    h1{
+        text-align: center;
+    }
+    form{
+        width: 100%;     
+    }
+    
+}
